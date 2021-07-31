@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Global Style  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 55.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2.4rem;
+
+}
+
+li,
+button,
+label,
+input,
+p {
+    font-size: 2rem;
+    color: #4c4d4d;
+    list-style: none;
+}
+
+h2 {
+    font-size: 3.8rem;
+}
+
+h3 {
+    font-size: 3.5rem;
+
+    color: #252b33;
+}
+
+h4,
+h5 {
+    font-size: 2rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    padding: 5px 5.6rem;
+    border-radius: 1rem;
+    background-color: #20c997;
+    border: none;
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    font-size: 6.4rem;
+}
+
+i {
+    font-size: 2.5rem;
+    color: #20c997 ;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.headers {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 5rem;
+}
+
+
+
+/* nav section*/
+.main-head {
+
+    color: white;
+    background-color: transparent;
+
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.navbar,
+.icon {
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+.navbar li {
+    padding: 1.5rem;
+
+
+}
+
+.icon li {
+    padding: 0.5rem;
+}
+
+#logo h2 {
+    font-size: 3.8rem;
+}
+
+.hire-me {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 7rem;
+    min-height: 90vh;
+}
+
+.container-head {
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 0%), url('images/intro-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+/* section about me */
+
+
+.about-me ul li {
+    list-style: none;
+}
+
+.about-me-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+
+.about-me-section span {
+    color: #20c997;
+}
+
+.about-me-section1 {
+
+    /* ask */
+    flex-basis: 70%;
+
+
+}
+
+
+
+.about-me-section2 ul li {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.about-me-section3 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-weight: 800;
+
+
+}
+
+.about-me-section3 ul {
+    align-self: center;
+    padding-top: 9rem;
+    padding-bottom: 10rem;
+    color: #6c757d;
+
+
+}
+
+.about-me-section3 ul>li {
+    font-size: 2.9rem;
+    text-align: center;
+}
+
+.services-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+
+
+}
+
+.services-item {
+    flex-basis: 40%;
+
+}
+
+.services-item h3 {
+
+    padding-bottom: 1rem;
+}
+
+.services-item ul li {
+    padding-bottom: 6rem;
+}
+
+.services-item ul {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+
+}
+
+.services-item ul li {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    align-self: center;
+
+}
+
+.services-item ul li i {
+    color: #20c997;
+    font-size: 30px;
+    padding: 18px;
+    border: none;
+    border-radius: 6%;
+    box-shadow: 0px 4px 12px -8px rgba(0, 0, 0, 0.59);
+
+}
+
+.services {
+    background-color: #f8f9fa;
+    width: 100%;
+}
+
+.services h2 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+/* section Resume */
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.eduction,
+.experiance {
+    flex-basis: 48%;
+}
+
+.eduction-item,
+.experiance-item {
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.experiance-item :nth-child(1),
+.eduction-item :nth-child(1) {
+    background-color: #20c997;
+    border: none;
+    border-radius: .5rem;
+    padding-left: 10px;
+    width: 120px;
+    color: white;
+
+}
+
+.experiance-item :nth-child(2),
+.eduction-item :nth-child(2) {
+    font-size: 2.5rem;
+    color: #252b33;
+    padding-top: 1.5rem;
+
+}
+
+.experiance-item :nth-child(3),
+.eduction-item :nth-child(3) {
+    font-size: 1.7rem;
+
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    color: #dc3545;
+    line-height: 1.5;
+}
+
+
+
+
+.skills {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+
+
+}
+
+.skill-item1,
+.skikll-item2 {
+    width: 48%;
+}
+
+.prograssbar {
+    background-color: #dee2e6;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+   margin-top: 10px;
+   margin-bottom: 15px;
+
+}
+
+.prograssbar>div {
+    background-color: #20c997;
+
+    width: 40%;
+
+    height: 10px;
+    border-radius: 10px;
+}
+
+#percentage{
+   float: right;
+}
+
+.resume button{
+   
+   margin: auto;
+     
+}
+
+
+/* portfolio */
+.background-section{
+    
+    background-color: #f8f9fa ;
+}
+.portfolio ul{
+   display: flex;
+   justify-content:center;
+  
+    
+}
+.portfolio ul li{
+    list-style: none;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.portfolio ul li a{
+    color: #252b33;
+    
+  
+}
+
+.portfolio ul li a:hover{
+    color: #20c997;
+}
+
+.flex-head-img{
+    display: flex;
+    
+    
+}
+.flex-head-img img{
+    border-radius: 50%;
+    
+}
+
+.head-item{
+   padding-left:20px;
+   padding-top: 10px;
+}
+.testimonial-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+      
+ 
+}
+.testimonial-item{
+    border: none;
+     padding: 50px;
+     
+    flex-basis:70rem;
+margin-bottom: 10rem;
+    background-color: #f8f9fa ;
+ 
+}
+
+.testimonial h2{
+    text-align: center;
+    padding: 8rem 0 0rem;
+}
+.green-hr{
+    width: 10%;
+    margin: auto;
+    color: #20c997 ;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+.contact-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+     padding-top: 6rem;
+     padding-bottom: 6rem;
+    
+}
+
+.contact-item2{
+    flex-grow: 2;
+   
+    
+}
+.contact-item2 input{
+    /* هسال فيهاااااااااا */
+    width: 30vw;   
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: none;
+    border: outset #20c997;
+}
+
+.contact-item2 textarea{
+    width: 100%;
+    border: outset #20c997;
+     
+}
+.contact-item2 button{
+     
+    padding: 10px  5px;
+    margin: 5px 0;
+     
+     
+
+
+}
+.contact-item1{
+    flex-grow: 1;
+    line-height: 1.5;
+   
+}
+
+footer{
+    display: flex;
+    padding: 6rem;
+    justify-content: space-between;
+}
